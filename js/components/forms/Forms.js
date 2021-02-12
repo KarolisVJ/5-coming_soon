@@ -23,7 +23,7 @@ class Forms {
             const inputs = form.querySelectorAll('input');
             const textareas = form.querySelectorAll('textarea');
             const allInputs = [...inputs, ...textareas];
-
+        
             const submit = form.querySelector('.btn');
 
             submit.addEventListener('click', event => {
